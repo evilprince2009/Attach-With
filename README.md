@@ -19,3 +19,10 @@ For example:
     `PS dotnet> build`
     `PS dotnet> run`
     
+To repeat commands:
+
+    `PS> attach g++ -o output input.c
+    PS g++ -o -output main.cpp>
+    <enter>
+    Compiling...
+    PS g++ -o -output main.cpp>`
