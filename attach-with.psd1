@@ -9,7 +9,7 @@
 @{
 
     # Version number of this module.
-    ModuleVersion = '1.0'
+    ModuleVersion = '1.0.0'
 
     # Script module or binary module file associated with this manifest.
     RootModule = 'attach-with.psm1'
@@ -45,7 +45,7 @@
     AliasesToExport = '*'
 
     # Functions to export from this module
-    FunctionsToExport = @('Start-With', 'Write-WithPrompt')
+    FunctionsToExport = @('Go-With')
 
     # Private data to pass to the module specified in RootModule. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
     PrivateData = @{
@@ -53,7 +53,7 @@
         PSData = @{
 
             # Tags applied to this module. These help with module discovery in online galleries.
-            Tags = @('git', 'with', 'repeat', 'bash', 'prompt')
+            Tags = @('powershell', 'attach', 'repeat', 'powershell', 'prompt', 'evilprince2009', 'prefixing')
 
             # A URL to the license for this module.
             LicenseUri = 'https://github.com/evilprince2009/Attach-With/blob/main/LICENSE'
