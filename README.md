@@ -4,7 +4,9 @@ Command prefixing for continuous workflow using single tool.
 
 ### Installation
 
-Not yet available in PoowerShellGallery. Install it manuall my putting it inside your `Modules` directory.
+Not yet available in PoowerShellGallery. Install it manuall my putting it inside your `Modules` directory. 
+
+Now, put this line `Import-Module -Name Add-With` inside your PowerShell profile. To edit your PowerShell profile, open powershell, type notepad $profile & hit `<Enter>`.
 
 ### Usage
 
