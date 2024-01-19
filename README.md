@@ -32,3 +32,5 @@ To repeat commands:
 Execute a shell command with with `:` prefix.
 
     `PS g++> :dir`
+
+To exit use `q` or `quit`.
