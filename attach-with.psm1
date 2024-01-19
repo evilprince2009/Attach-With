@@ -1,4 +1,4 @@
-function Remove-With()
+function Erase-With()
 {
     param(
         [string]
@@ -42,20 +42,23 @@ function Move-With()
         elseif ($input_shell.StartsWith($command)) {
             
             Write-Host "  Your primary command is '$command'." -ForegroundColor DarkRed
-            Write-Host "  When using with, make sure to not duplicate the command." -ForegroundColor DarkRed
+            Write-Host "  Make sure to not duplicate the command." -ForegroundColor DarkRed
         }
         elseif ($input_shell.StartsWith('>'))
         {
             $addition = $input_shell.Substring(1).Trim()
+            
             if (!($addition -eq ''))
             {
                 $command += " $($input_shell.Substring(1).Trim())"
             }
         }
+        
         elseif ($input_shell.StartsWith('<'))
         {
-            $command = Remove-With -command $command
+            $command = Erase-With -command $command
         }
+        
         else 
         {
             Invoke-Expression "$command $input_shell"
@@ -105,7 +108,7 @@ function Write-ClassicPrompt()
     Write-Host "  " -NoNewline    
 }
 
-function Invoke-With()
+function Start-With()
 {
     $command = $args
     if (Validate-Command -command $command[0])
@@ -127,5 +130,4 @@ function Validate-Command()
     return [bool](Get-Command -Name $command -ErrorAction SilentlyContinue)
 }
 
-Set-Alias attach Invoke-With
-
+Set-Alias attach Start-With
