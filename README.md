@@ -5,7 +5,6 @@ Command prefixing for continuous workflow using single tool.
 ### Installation
 
 Open a PowerShell Instance and run `Install-Module -Name attach-with`.
-Thats all!
 
 Now, put this line `Import-Module -Name Add-With` inside your PowerShell profile and save. To edit your PowerShell profile, open powershell, type notepad $profile & hit `<Enter>`.
 
