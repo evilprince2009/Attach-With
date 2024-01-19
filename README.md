@@ -4,9 +4,9 @@ Command prefixing for continuous workflow using single tool.
 
 ### Installation
 
-Not yet available in PoowerShellGallery. Install it manuall my putting it inside your `Modules` directory. 
+Not yet available in PoowerShellGallery. Install it manuall my putting it inside your `Modules` directory.
 
-Now, put this line `Import-Module -Name Add-With` inside your PowerShell profile. To edit your PowerShell profile, open powershell, type notepad $profile & hit `<Enter>`.
+Now, put this line `Import-Module -Name Add-With` inside your PowerShell profile and save. To edit your PowerShell profile, open powershell, type notepad $profile & hit `<Enter>`.
 
 ### Usage
 
@@ -36,3 +36,8 @@ Execute a shell command with with `:` prefix.
     `PS g++> :dir`
 
 To exit use `q` or `quit`.
+
+## Ibne Nahian
+
+- #### [LinkedIn](https://www.linkedin.com/in/evilprince2009/)
+- #### [Upwork](https://www.upwork.com/freelancers/~01ded0be5baccfa296)
