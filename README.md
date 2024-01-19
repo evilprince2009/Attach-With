@@ -8,6 +8,6 @@ Not yet available in PoowerShellGallery. Install it manuall my putting it inside
 
 ### Usage
 
-    `PS  attach <program>`
+    `PS > attach <program>`
 
 Starts an interactive shell with where every command is prefixed using `<program>`.
