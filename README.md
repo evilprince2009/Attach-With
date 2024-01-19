@@ -11,3 +11,11 @@ Not yet available in PoowerShellGallery. Install it manuall my putting it inside
     `PS > attach <program>`
 
 Starts an interactive shell with where every command is prefixed using `<program>`.
+
+For example:
+
+    `PS> attach dotnet`
+    `PS dotnet> restore`
+    `PS dotnet> build`
+    `PS dotnet> run`
+    
