@@ -28,3 +28,7 @@ To repeat commands:
     <enter>
     Compiling...
     PS g++ -o -output main.cpp>`
+
+Execute a shell command with with `:` prefix.
+
+    `PS g++> :dir`
