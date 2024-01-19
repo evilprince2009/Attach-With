@@ -40,11 +40,9 @@ function Move-With()
             Invoke-Expression "$($input_shell.Substring(1))"
         }
         elseif ($input_shell.StartsWith($command)) {
-            # let the user know the command is duplicated
+            
             Write-Host "  Your primary command is '$command'." -ForegroundColor DarkRed
             Write-Host "  When using with, make sure to not duplicate the command." -ForegroundColor DarkRed
-            # Write-Host "Continuing assuming you meant '$($input_shell.Substring($command.Length).Trim())'"
-            # Invoke-Expression "$input_shell"
         }
         elseif ($input_shell.StartsWith('>'))
         {
