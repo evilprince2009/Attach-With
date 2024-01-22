@@ -9,7 +9,7 @@
 @{
 
     # Version number of this module.
-    ModuleVersion = '1.0.0'
+    ModuleVersion = '1.0.11'
 
     # Script module or binary module file associated with this manifest.
     RootModule = 'attach-with.psm1'
@@ -30,7 +30,7 @@
     Description = 'A PowerShell module for command prefixing'
 
     # Minimum version of the Windows PowerShell engine required by this module
-    PowerShellVersion = '7.0'
+    PowerShellVersion = '5.0'
 
     # List of all files packaged with this module
     FileList = @()
